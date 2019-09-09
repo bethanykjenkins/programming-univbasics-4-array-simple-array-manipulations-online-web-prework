@@ -27,3 +27,10 @@ def using_shift
   @im_so_over_this_city = @my_favorite_cities.using_shift
 end
 
+def shift_with_args
+  @ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
+  @brands_removed = @ice_cream_brands.shfit(2)
+end
+
+def using_concat
+  
