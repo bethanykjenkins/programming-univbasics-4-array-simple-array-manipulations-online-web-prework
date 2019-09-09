@@ -55,4 +55,9 @@ def using_flatten
 end
 
 def using_delete
+  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+  no_offense_steven = instructors.delete ("Steven")
+end
+
+def using_delete_at
   
